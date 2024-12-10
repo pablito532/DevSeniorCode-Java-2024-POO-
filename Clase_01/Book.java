@@ -15,7 +15,7 @@ public class Book {
         gender = "N/A";
         isBusy = false;
     }
-
+    //Constructores
     public Book(String title, String author, int year, String gender, boolean isBusy) {
         this.title = title;
         this.author = author;
@@ -31,7 +31,7 @@ public class Book {
         this.gender = gender;
         this.isBusy = false;
     }
-
+    //Metodos
     public void showInfo() {
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
